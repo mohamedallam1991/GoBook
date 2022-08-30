@@ -1,6 +1,6 @@
 ---
-title: "Content Samples"
-description: "See what's possible with Congo."
+title: "Golang book"
+description: "This blog will take you from zero to hero in Golang."
 
 cascade:
   showEdit: false
