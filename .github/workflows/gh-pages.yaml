@@ -3,8 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master  # Set a branch to deploy
-  # pull_request:
+      - master
 
 jobs:
   deploy:
@@ -12,6 +11,7 @@ jobs:
     # concurrency:
     #   group: ${{ github.workflow }}-${{ github.ref }}
     steps:
+      - name: Checkout
       - uses: actions/checkout@v3
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
