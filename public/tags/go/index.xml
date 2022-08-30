@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Go on Congo</title>
+    <link>https://mohamedallam1991/github.io/gobook/tags/go/</link>
+    <description>Recent content in Go on Congo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 22 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mohamedallam1991/github.io/gobook/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The 2 Algorithms representations</title>
+      <link>https://mohamedallam1991/github.io/gobook/algorithms/</link>
+      <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mohamedallam1991/github.io/gobook/algorithms/</guid>
+      <description>&lt;p&gt;An algorithm is a plan, a set of step-by-step instructions to resolve a problem. And there is two ways to represent that.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

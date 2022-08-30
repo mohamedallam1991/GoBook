@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Congo</title>
+    <link>https://mohamedallam1991/github.io/gobook/categories/</link>
+    <description>Recent content in Categories on Congo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 23 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mohamedallam1991/github.io/gobook/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beginner</title>
+      <link>https://mohamedallam1991/github.io/gobook/categories/beginner/</link>
+      <pubDate>Tue, 23 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mohamedallam1991/github.io/gobook/categories/beginner/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Beginner on Congo</title>
+    <link>https://mohamedallam1991/github.io/gobook/categories/beginner/</link>
+    <description>Recent content in Beginner on Congo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 23 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mohamedallam1991/github.io/gobook/categories/beginner/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is _ (underscore) in Go?</title>
+      <link>https://mohamedallam1991/github.io/gobook/blank-identifier/</link>
+      <pubDate>Tue, 23 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mohamedallam1991/github.io/gobook/blank-identifier/</guid>
+      <description>&lt;p&gt;Underscore _ demisified in Go.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The 2 Algorithms representations</title>
+      <link>https://mohamedallam1991/github.io/gobook/algorithms/</link>
+      <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mohamedallam1991/github.io/gobook/algorithms/</guid>
+      <description>&lt;p&gt;An algorithm is a plan, a set of step-by-step instructions to resolve a problem. And there is two ways to represent that.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

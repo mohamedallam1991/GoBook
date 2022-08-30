@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mohamedallam1991/github.io/gobook/sitemap.xml
