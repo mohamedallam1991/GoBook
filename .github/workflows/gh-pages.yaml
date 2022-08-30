@@ -3,7 +3,8 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master
+      - master  # Set a branch to deploy
+  # pull_request:
 
 jobs:
   deploy:
@@ -11,7 +12,6 @@ jobs:
     # concurrency:
     #   group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - name: Checkout
       - uses: actions/checkout@v3
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
@@ -19,12 +19,13 @@ jobs:
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2.5.0
+        # uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
           extended: true
 
       - name: Build
-        run: hugo --minify --baseURL https://mohamedallam1991.github.io/gobook/
+        run: hugo --minify
 
 
     # push the generated content into the `gh-pages` branch.
