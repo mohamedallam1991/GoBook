@@ -64,10 +64,12 @@ This is resources will take you from not knowing what coding is, to becoming pro
     - [Test with Go](https://testwithgo.com/)
 
 
-
 ## Books
 
-
+- [Github Golang](https://github.com/golang/go/wiki/Books)
+- [Github Dariubs](https://github.com/dariubs/GoBooks)
+- [Github Spaceship Go](https://blasrodri.github.io/spaceship-go-gh-pages/)
+- [Github Golang-book](https://softchris.github.io/golang-book/)
 - [Mastering Go - Third Edition](https://www.oreilly.com/library/view/mastering-go/9781801079310/)
 - [Go Resources](hhttps://www.golang-book.com/)
     * [Introducing Go](https://www.oreilly.com/library/view/introducing-go/9781491941997/)
@@ -75,12 +77,15 @@ This is resources will take you from not knowing what coding is, to becoming pro
 
 
 
-[Edit this page on GitHub](https://github.com/mohamedallam1991/golang-book/blob/master/content/learning-resoources.md)
+
+
 
 
 ## Youtube Courses
-- [Go / Golang Crash Course](https://www.youtube.com/watch?v=SqrbIlUwR0U)
-- [Michael Van Sickle Learn Go Programming - Golang Tutorial for Beginners](https://www.youtube.com/watch?v=YS4e4q9oBaU)
+- [Traversy Media: Go / Golang Crash Course](https://www.youtube.com/watch?v=SqrbIlUwR0U)
+{{< youtube id="SqrbIlUwR0U" title="Golang Crash Course By Traversy" >}}
+- [DerekBanas: Go Programming](https://www.youtube.com/watch?v=CF9S4QZuV30)
+- [FreeCodeCamp Michael Van Sickle Learn Go Programming - Golang Tutorial for Beginners](https://www.youtube.com/watch?v=YS4e4q9oBaU)
 
 
 ## More resouces
@@ -104,4 +109,5 @@ https://github.com/florinpop17/app-ideas
 - [Short JavaScript code snippets for all your development needs](https://github.com/30-seconds/30-seconds-of-code)
 
 
-[Edit this page on GitHub](https://github.com/mohamedallam1991/golang-book/blob/master/content/learning-resoources.md)
+
+[Edit this page on GitHub](https://github.com/mohamedallam1991/GoBook/blob/master/content/resources/learning.md)

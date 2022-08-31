@@ -13,4 +13,4 @@ This tools will show you how awesome is the Go ecosystem.
     - [Automatically generate Go test boilerplate from your source code](https://github.com/cweill/gotests)
     - [Go weekly newsletter](https://golangweekly.com/)
 
-[Edit this page on GitHub](https://github.com/mohamedallam1991/golang-book/blob/master/content/tools.md)
+[Edit this page on GitHub](https://github.com/mohamedallam1991/GoBook/blob/master/content/resources/go-tools.md)

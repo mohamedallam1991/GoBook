@@ -23,5 +23,4 @@ You want to know what others built using the very Go?
 
 
 
-
-[Edit this page on GitHub](https://github.com/mohamedallam1991/golang-book/blob/master/content/builtin.md)
+[Edit this page on GitHub](https://github.com/mohamedallam1991/GoBook/blob/master/content/resources/builtin.md)
