@@ -1,8 +1,7 @@
 ---
 title:  Golang bad file descriptor (how to append to a file)
-# slug: algorithms
+slug: Golang bad file descriptor (how to append to a file)
 date: 2022-09-01
-# url: algorithms
 # showTaxonomies: ["Go"]
 tags: ["Go"]
 categories: ["Beginner"]
