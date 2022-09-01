@@ -64,22 +64,6 @@ This is resources will take you from not knowing what coding is, to becoming pro
     - [Test with Go](https://testwithgo.com/)
 
 
-## Books
-
-- [Github Golang](https://github.com/golang/go/wiki/Books)
-- [Github Dariubs](https://github.com/dariubs/GoBooks)
-- [Github Spaceship Go](https://blasrodri.github.io/spaceship-go-gh-pages/)
-- [Github Golang-book](https://softchris.github.io/golang-book/)
-- [Mastering Go - Third Edition](https://www.oreilly.com/library/view/mastering-go/9781801079310/)
-- [Go Resources](hhttps://www.golang-book.com/)
-    * [Introducing Go](https://www.oreilly.com/library/view/introducing-go/9781491941997/)
-    * [An Introduction to Programming in Go](https://www.golang-book.com/books/intro)
-
-
-
-
-
-
 
 ## Youtube Courses
 - [Traversy Media: Go / Golang Crash Course](https://www.youtube.com/watch?v=SqrbIlUwR0U)

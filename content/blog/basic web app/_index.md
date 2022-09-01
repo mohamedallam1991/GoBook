@@ -7,3 +7,4 @@ lead: Lets build a blazing fast web application in Go.
 
 Lets build a basic web application in Goaa
 ---
+<!-- ![Profile layout with recent articles](mohamedallam.jpg "work") -->

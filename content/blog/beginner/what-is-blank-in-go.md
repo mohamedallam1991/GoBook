@@ -11,29 +11,18 @@ lead: Underscore _ explained in Go.
 categories: ["Beginner"]
 tags: ["Golang"]
 
-sidebar: true
-pager: false
-toc: true
-# weight: 2
-
-authorbox: true # Enable authorbox for specific page
-pager: false # Enable pager navigation (prev/next) for specific page
-toc: true # Enable Table of Contents for specific page
-comments: false # Enable Disqus comments for specific page
-mathjax: false # Enable MathJax for specific page
-widgets:
-  - "search"
-  - "recent"
-  - "taglist"
+cover:
+  image: ![Alt text](/img/mohamedallam.jpg "Image caption")
+  caption: golang missing function body or unexpected semicolon
 
 ---
-
 
 Underscore _ demisified in Go.
 
 <!--more-->
-
 ## Blank identifier
+
+<!-- ![Alt text](/img/mohamedallam.jpg "Image caption") -->
 
 The blank identifier is represented by the underscore character _. It serves as an anonymous placeholder instead of a regular (non-blank) identifier and has special meaning in declarations, as an operand, and in assignment statements.
 
