@@ -6,6 +6,8 @@ defaultContentLanguage = "en"
 
 googleAnalytics = "G-GN386HD72W"
 
+[permalinks]
+  blog = '/:slug/'
 
 enableRobotsTXT = true
 paginate = 20

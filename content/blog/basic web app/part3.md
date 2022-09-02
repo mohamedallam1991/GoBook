@@ -1,7 +1,7 @@
 ---
 title: Golang Http server part 3
-# slug: "golang-variables"
-url: golang Http server part 3
+# url: "web-apaap"
+slug: "web appolang Http server part 3riables-aaa"
 
 date: 2022-08-16
 description: This article teaches you everything you need to know about Concurency in Golang

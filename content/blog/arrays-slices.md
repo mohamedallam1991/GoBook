@@ -1,6 +1,7 @@
 ---
 title: Golang arrays and slices
 slug: Golang arrays and slices
+# url: Golang arrays and slices
 
 date: 2022-09-01
 description: This article teaches you everything you need to know about arrays in Golang
