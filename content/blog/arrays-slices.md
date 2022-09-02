@@ -2,7 +2,7 @@
 title: Golang arrays and slices
 slug: Golang arrays and slices
 
-date: 2022-09-1
+date: 2022-09-01
 description: This article teaches you everything you need to know about arrays in Golang
 lead: Lets learn Golang arrays, how to declare them and how to use them.
 
