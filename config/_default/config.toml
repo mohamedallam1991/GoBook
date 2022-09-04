@@ -3,7 +3,6 @@
 # https://jpanther.github.io/congo/docs/getting-started/
 baseURL = "https://mohamedallam1991/github.io/gobook/"
 defaultContentLanguage = "en"
-
 googleAnalytics = "G-GN386HD72W"
 
 [permalinks]

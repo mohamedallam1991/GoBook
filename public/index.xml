@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Content Samples on Congo</title>
+    <title>Golang book on Golang Book</title>
     <link>https://mohamedallam1991/github.io/gobook/</link>
-    <description>Recent content in Content Samples on Congo</description>
+    <description>Recent content in Golang book on Golang Book</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 23 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mohamedallam1991/github.io/gobook/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mohamedallam1991/github.io/gobook/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Golang arrays and slices</title>
+      <link>https://mohamedallam1991/github.io/gobook/golang-arrays-and-slices/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mohamedallam1991/github.io/gobook/golang-arrays-and-slices/</guid>
+      <description>&lt;p&gt;After you finish this article you will start playing with arrays like pawns&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Golang bad file descriptor (how to append to a file)</title>
+      <link>https://mohamedallam1991/github.io/gobook/golang-bad-file-descriptor-how-to-append-to-a-file/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mohamedallam1991/github.io/gobook/golang-bad-file-descriptor-how-to-append-to-a-file/</guid>
+      <description>&lt;p&gt;Golang bad file descriptor&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>What is _ (underscore) in Go?</title>
       <link>https://mohamedallam1991/github.io/gobook/blank-identifier/</link>
@@ -22,6 +40,71 @@
       <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>https://mohamedallam1991/github.io/gobook/algorithms/</guid>
+      <description>&lt;p&gt;An algorithm is a plan, a set of step-by-step instructions to resolve a problem. And there is two ways to represent that.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Golang Http server part 3</title>
+      <link>https://mohamedallam1991/github.io/gobook/web-appolang-http-server-part-3riables-aaa/</link>
+      <pubDate>Tue, 16 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mohamedallam1991/github.io/gobook/web-appolang-http-server-part-3riables-aaa/</guid>
+      <description>&lt;p&gt;Go, is very productive, lets build a web server in 5 minutes. part 3&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Simple Http server</title>
+      <link>https://mohamedallam1991/github.io/gobook/simple-http-server/</link>
+      <pubDate>Tue, 16 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mohamedallam1991/github.io/gobook/simple-http-server/</guid>
+      <description>&lt;p&gt;Go, is very productive, lets build a web server in 5 minutes.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Go Books</title>
+      <link>https://mohamedallam1991/github.io/gobook/resources/go-books/</link>
+      <pubDate>Tue, 25 Jan 2022 14:00:00 +0000</pubDate>
+      
+      <guid>https://mohamedallam1991/github.io/gobook/resources/go-books/</guid>
+      <description>&lt;p&gt;a List of all Go books&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Resources to learn go</title>
+      <link>https://mohamedallam1991/github.io/gobook/resources/resources-to-learn-go/</link>
+      <pubDate>Tue, 25 Jan 2022 14:00:00 +0000</pubDate>
+      
+      <guid>https://mohamedallam1991/github.io/gobook/resources/resources-to-learn-go/</guid>
+      <description>&lt;p&gt;This is resources will take you from not knowing what coding is, to becoming proficient in Go&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Made With Go</title>
+      <link>https://mohamedallam1991/github.io/gobook/madewithGo/</link>
+      <pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mohamedallam1991/github.io/gobook/madewithGo/</guid>
+      <description>You want to know what others built using the very Go?
+Sources # Docker Compose Kubernetes CockroachDB BadgerDB FerretDB NSQ NATS Centrifugo PhotoPrism Caddy Edit this page on GitHub</description>
+    </item>
+    
+    <item>
+      <title>Tools in The Go ecosystem</title>
+      <link>https://mohamedallam1991/github.io/gobook/resources/go-tools/</link>
+      <pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mohamedallam1991/github.io/gobook/resources/go-tools/</guid>
+      <description>This tools will show you how awesome is the Go ecosystem.
+Sources # - [Calculate cyclomatic complexities of functions in Go source code.](https://github.com/fzipp/gocyclo) - [Automatically generate Go test boilerplate from your source code](https://github.com/cweill/gotests) - [Go weekly newsletter](https://golangweekly.com/) Edit this page on GitHub</description>
+    </item>
+    
+    <item>
+      <title>Golang create read update delete file</title>
+      <link>https://mohamedallam1991/github.io/gobook/golang-create-read-update-delete-file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mohamedallam1991/github.io/gobook/golang-create-read-update-delete-file/</guid>
       <description>&lt;p&gt;An algorithm is a plan, a set of step-by-step instructions to resolve a problem. And there is two ways to represent that.&lt;/p&gt;</description>
     </item>
     

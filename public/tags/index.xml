@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tags on Congo</title>
+    <title>tags on Golang Book</title>
     <link>https://mohamedallam1991/github.io/gobook/tags/</link>
-    <description>Recent content in tags on Congo</description>
+    <description>Recent content in tags on Golang Book</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 23 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mohamedallam1991/github.io/gobook/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mohamedallam1991/github.io/gobook/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go</title>
+      <link>https://mohamedallam1991/github.io/gobook/tags/go/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mohamedallam1991/github.io/gobook/tags/go/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Golang</title>
       <link>https://mohamedallam1991/github.io/gobook/tags/golang/</link>
@@ -17,11 +26,11 @@
     </item>
     
     <item>
-      <title>Go</title>
-      <link>https://mohamedallam1991/github.io/gobook/tags/go/</link>
-      <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
+      <title>Beginner</title>
+      <link>https://mohamedallam1991/github.io/gobook/tags/beginner/</link>
+      <pubDate>Tue, 16 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://mohamedallam1991/github.io/gobook/tags/go/</guid>
+      <guid>https://mohamedallam1991/github.io/gobook/tags/beginner/</guid>
       <description></description>
     </item>
     

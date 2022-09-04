@@ -5,10 +5,10 @@
   lang="en"
   dir="ltr"
   class="scroll-smooth"
-  data-default-appearance="light"
+  data-default-appearance="dark"
   data-auto-appearance="true"
 ><head>
-	<meta name="generator" content="Hugo 0.101.0" />
+	<meta name="generator" content="Hugo 0.102.3" />
   <meta charset="utf-8" />
   
     <meta http-equiv="content-language" content="en" />
@@ -16,16 +16,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Congo</title>
-    <meta name="title" content="Congo" />
+  <title>Golang Book</title>
+    <meta name="title" content="Golang Book" />
   
-  
+  <meta name="description" content="This blog will take you from zero to hero in Golang." />
   
   
   
   <link rel="canonical" href="https://mohamedallam1991/github.io/gobook/" />
-  <link rel="alternate" type="application/rss+xml" href="/github.io/gobook/index.xml" title="Congo" />
-  <link rel="alternate" type="application/json" href="/github.io/gobook/index.json" title="Congo" />
+  <link rel="alternate" type="application/rss+xml" href="/github.io/gobook/index.xml" title="Golang Book" />
+  <link rel="alternate" type="application/json" href="/github.io/gobook/index.json" title="Golang Book" />
   
   
   
@@ -57,7 +57,7 @@
   
   
     
-    <script defer type="text/javascript" id="script-bundle" src="/github.io/gobook/js/main.bundle.min.b607eb5ea0f48ef635db6a1c024a35eeff4529157e49461941aac333a158a1f71cae4e530d45ac010598695f823dbe38a63142757e37c2d7b74a309d7296f681.js" integrity="sha512-tgfrXqD0jvY122ocAko17v9FKRV&#43;SUYZQarDM6FYofccrk5TDUWsAQWYaV&#43;CPb44pjFCdX43wte3SjCdcpb2gQ==" data-copy="Copy" data-copied="Copied"></script>
+    <script defer type="text/javascript" id="script-bundle" src="/github.io/gobook/js/main.bundle.min.15ae6e2c9b1ac24a9ccf40003fa689efb1a18db1ee9b73d780b01a6c31b150441415862513e93184f68fe385759e4698b8763cba6a0f79493c1fed99ad5868d4.js" integrity="sha512-Fa5uLJsawkqcz0AAP6aJ77GhjbHum3PXgLAabDGxUEQUFYYlE&#43;kxhPaP44V1nkaYuHY8umoPeUk8H&#43;2ZrVho1A==" data-copy="Copy" data-copied="Copied"></script>
   
   
   
@@ -72,15 +72,15 @@
   
   
   
-  <meta property="og:title" content="Content Samples" />
-<meta property="og:description" content="See what&#39;s possible with Congo." />
+  <meta property="og:title" content="Golang book" />
+<meta property="og:description" content="This blog will take you from zero to hero in Golang." />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://mohamedallam1991/github.io/gobook/" /><meta property="og:site_name" content="Congo" />
+<meta property="og:url" content="https://mohamedallam1991/github.io/gobook/" /><meta property="og:site_name" content="Golang Book" />
 
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Content Samples"/>
-<meta name="twitter:description" content="See what&#39;s possible with Congo."/>
+<meta name="twitter:title" content="Golang book"/>
+<meta name="twitter:description" content="This blog will take you from zero to hero in Golang."/>
 
   
   <script type="application/ld+json">
@@ -88,8 +88,8 @@
     "@context": "https://schema.org",
     "@type": "WebSite",
     "@id": "https:\/\/mohamedallam1991\/github.io\/gobook\/",
-    "name": "Congo",
-    
+    "name": "Golang Book",
+    "description": "This blog will take you from zero to hero in Golang.",
     "inLanguage": "en",
     "url": "https:\/\/mohamedallam1991\/github.io\/gobook\/",
     
@@ -104,6 +104,22 @@
   
   <meta name="author" content="Mohamed Allam" />
   
+    
+      <link href="mailto:meda3gm@gmail.com/" rel="me" />
+    
+      <link href="https://mohamedallam.pages.dev/" rel="me" />
+    
+      <link href="https://github.com/mohamedallam1991/" rel="me" />
+    
+      <link href="https://mohamedallam.hashnode.dev" rel="me" />
+    
+      <link href="https://mastodon.technology/@mohamed" rel="me" />
+    
+      <link href="https://t.me/kindatired" rel="me" />
+    
+      <link href="https://youtube.com/username" rel="me" />
+    
+  
   
   
 
@@ -116,6 +132,17 @@
   
   
   
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GN386HD72W"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-GN386HD72W', { 'anonymize_ip': false });
+}
+</script>
+
 
 
   
@@ -140,12 +167,18 @@
     
     <div>
       
-        <a
-          class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
-          rel="me"
-          href="/github.io/gobook/"
-          >Congo</a
-        >
+        
+          <a href="/github.io/gobook/">
+            <img
+              src="/github.io/gobook/img/Go-Logo_Blue.png"
+              width="530"
+              height="469"
+              class="max-w-[10rem] max-h-[10rem] object-scale-down object-left"
+              alt="Golang Book"
+            />
+          </a>
+        
+      
       
 
     </div>
@@ -178,6 +211,15 @@
                 href="/github.io/gobook/tags/"
                 title="tags"
                 >Tags</a
+              >
+            </li>
+          
+            <li class="mb-1 sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+              <a
+                class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+                href="/github.io/gobook/resources/"
+                title="Resources"
+                >Resources</a
               >
             </li>
           
@@ -214,7 +256,7 @@
     <article class="max-w-full prose dark:prose-invert">
   
     <header>
-      <h1>Content Samples</h1>
+      <h1>Golang book</h1>
     </header>
   
   <section><div class="!mb-9 text-xl lead">
@@ -229,6 +271,162 @@
 <section>
   
   <h2 class="mt-8 text-2xl font-extrabold">Recent</h2>
+  
+    <article>
+  <h3 class="flex items-center mt-6 text-xl font-semibold">
+    
+      <a
+        class="decoration-primary-500 hover:underline hover:underline-offset-2 text-neutral-800 dark:text-neutral"
+        href="/github.io/gobook/golang-arrays-and-slices/"
+        >Golang arrays and slices</a
+      >
+    
+    
+    
+  </h3>
+  <div class="text-sm text-neutral-500 dark:text-neutral-400">
+    
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2022-09-01 00:00:00 &#43;0000 UTC">Sep 1, 2022</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+    <div class="my-1 text-xs text-neutral-500 dark:text-neutral-400 ">
+      
+        
+      
+        
+      
+    </div>
+  
+
+
+  </div>
+  
+    <div class="py-1 prose dark:prose-invert">
+      <p>After you finish this article you will start playing with arrays like pawns</p>
+    </div>
+  
+</article>
+
+  
+    <article>
+  <h3 class="flex items-center mt-6 text-xl font-semibold">
+    
+      <a
+        class="decoration-primary-500 hover:underline hover:underline-offset-2 text-neutral-800 dark:text-neutral"
+        href="/github.io/gobook/golang-bad-file-descriptor-how-to-append-to-a-file/"
+        >Golang bad file descriptor (how to append to a file)</a
+      >
+    
+    
+    
+  </h3>
+  <div class="text-sm text-neutral-500 dark:text-neutral-400">
+    
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2022-09-01 00:00:00 &#43;0000 UTC">Sep 1, 2022</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+    <div class="my-1 text-xs text-neutral-500 dark:text-neutral-400 ">
+      
+        
+          
+            <a
+              href="/github.io/gobook/categories/beginner/"
+              class="px-1 py-[1px] border rounded-md border-neutral-200 dark:border-neutral-600 hover:border-primary-300 hover:text-primary-700 dark:hover:border-primary-600 dark:hover:text-primary-400"
+              >Beginner</a
+            >
+          
+        
+      
+        
+          
+            <a
+              href="/github.io/gobook/tags/go/"
+              class="px-1 py-[1px] border rounded-md border-neutral-200 dark:border-neutral-600 hover:border-primary-300 hover:text-primary-700 dark:hover:border-primary-600 dark:hover:text-primary-400"
+              >Go</a
+            >
+          
+        
+      
+    </div>
+  
+
+
+  </div>
+  
+    <div class="py-1 prose dark:prose-invert">
+      <p>Golang bad file descriptor</p>
+    </div>
+  
+</article>
+
   
     <article>
   <h3 class="flex items-center mt-6 text-xl font-semibold">
@@ -272,7 +470,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2022-08-23 00:00:00 &#43;0000 UTC">23 August 2022</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+      <time datetime="2022-08-23 00:00:00 &#43;0000 UTC">Aug 23, 2022</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
     
 
     
@@ -358,7 +556,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2022-08-22 00:00:00 &#43;0000 UTC">22 August 2022</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+      <time datetime="2022-08-22 00:00:00 &#43;0000 UTC">Aug 22, 2022</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
     
 
     
@@ -397,6 +595,98 @@
   
     <div class="py-1 prose dark:prose-invert">
       <p>An algorithm is a plan, a set of step-by-step instructions to resolve a problem. And there is two ways to represent that.</p>
+    </div>
+  
+</article>
+
+  
+    <article>
+  <h3 class="flex items-center mt-6 text-xl font-semibold">
+    
+      <a
+        class="decoration-primary-500 hover:underline hover:underline-offset-2 text-neutral-800 dark:text-neutral"
+        href="/github.io/gobook/web-appolang-http-server-part-3riables-aaa/"
+        >Golang Http server part 3</a
+      >
+    
+    
+    
+  </h3>
+  <div class="text-sm text-neutral-500 dark:text-neutral-400">
+    
+
+
+
+
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2022-08-16 00:00:00 &#43;0000 UTC">Aug 16, 2022</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+    <div class="my-1 text-xs text-neutral-500 dark:text-neutral-400 ">
+      
+        
+          
+            <a
+              href="/github.io/gobook/categories/golang/"
+              class="px-1 py-[1px] border rounded-md border-neutral-200 dark:border-neutral-600 hover:border-primary-300 hover:text-primary-700 dark:hover:border-primary-600 dark:hover:text-primary-400"
+              >Golang</a
+            >
+          
+        
+      
+        
+          
+            <a
+              href="/github.io/gobook/tags/golang/"
+              class="px-1 py-[1px] border rounded-md border-neutral-200 dark:border-neutral-600 hover:border-primary-300 hover:text-primary-700 dark:hover:border-primary-600 dark:hover:text-primary-400"
+              >Golang</a
+            >
+          
+            <a
+              href="/github.io/gobook/tags/beginner/"
+              class="px-1 py-[1px] border rounded-md border-neutral-200 dark:border-neutral-600 hover:border-primary-300 hover:text-primary-700 dark:hover:border-primary-600 dark:hover:text-primary-400"
+              >Beginner</a
+            >
+          
+        
+      
+    </div>
+  
+
+
+  </div>
+  
+    <div class="py-1 prose dark:prose-invert">
+      <p>Go, is very productive, lets build a web server in 5 minutes. part 3</p>
     </div>
   
 </article>
