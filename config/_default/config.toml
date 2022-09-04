@@ -1,7 +1,7 @@
 # -- Site Configuration --
 # Refer to the theme docs for more details about each of these parameters.
 # https://jpanther.github.io/congo/docs/getting-started/
-baseURL = "https://mohamedallam1991/github.io/gobook/"
+baseURL = "https://mohamedallam1991/github.io/GoBook/"
 defaultContentLanguage = "en"
 googleAnalytics = "G-GN386HD72W"
 
@@ -14,3 +14,8 @@ summaryLength = 0
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[sitemap]
+  changefreq = 'daily'
+  filename = 'sitemap.xml'
+  priority = 1

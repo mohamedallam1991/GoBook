@@ -1,4 +1,5 @@
 ---
+draft: true
 title:  Data structure and Algorithms
 date: 2022-09-03
 # url: algorithms
@@ -63,6 +64,7 @@ Lets group 8 bits together, now you have 1 byte. a collection of 8 bits, now we 
 | 1 | 0 1 |
 | 2 | 00 01 10 11 |
 | 3 | 000 001 010 011 100 101 110 111 |
+
 
 Now how many patterns?
 Memory has slots, each slot is a byte, a byte is 8 bits, a bit is either a 0 or 1.
