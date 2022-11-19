@@ -83,11 +83,11 @@ jobs:
       #   # run: |
       #   #   hugo --minify -d public
 
-      # - name: Encrypt required blog posts
-      #   if: ${{github.event_name != 'schedule' || steps.notion_blog.outputs.articles_published != '0'}}
-      #   working-directory: ./mohamedallam1991.github.io
-      #   run: |
-      #     ../hugo-encrypt/hugo-encrypt -sitePath public > /dev/null 2>&1
+      - name: Encrypt required blog posts
+        if: ${{github.event_name != 'schedule' || steps.notion_blog.outputs.articles_published != '0'}}
+        working-directory: ./mohamedallam1991.github.io
+        run: |
+          ../hugo-encrypt/hugo-encrypt -sitePath public > /dev/null 2>&1
 
       - name: Deploy
         if: ${{github.event_name != 'schedule' || steps.notion_blog.outputs.articles_published != '0'}}
