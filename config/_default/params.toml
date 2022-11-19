@@ -16,6 +16,7 @@ enableCodeCopy = true
 # robots = ""
 
 [header]
+  logo = "/Go-Logo_Blue.png"
   layout = "basic" # valid options: basic, hamburger, custom
 
 [footer]

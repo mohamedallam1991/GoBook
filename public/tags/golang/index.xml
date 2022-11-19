@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Golang on Golang Book</title>
-    <link>https://mohamedallam1991/github.io/gobook/tags/golang/</link>
+    <link>https://mohamedallam1991/github.io/GoBook/tags/golang/</link>
     <description>Recent content in Golang on Golang Book</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 23 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mohamedallam1991/github.io/gobook/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mohamedallam1991/github.io/GoBook/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What is _ (underscore) in Go?</title>
-      <link>https://mohamedallam1991/github.io/gobook/blank-identifier/</link>
+      <link>https://mohamedallam1991/github.io/GoBook/blank-identifier/</link>
       <pubDate>Tue, 23 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://mohamedallam1991/github.io/gobook/blank-identifier/</guid>
+      <guid>https://mohamedallam1991/github.io/GoBook/blank-identifier/</guid>
       <description>&lt;p&gt;Underscore _ demisified in Go.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Golang Http server part 3</title>
-      <link>https://mohamedallam1991/github.io/gobook/web-appolang-http-server-part-3riables-aaa/</link>
+      <link>https://mohamedallam1991/github.io/GoBook/web-appolang-http-server-part-3riables-aaa/</link>
       <pubDate>Tue, 16 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://mohamedallam1991/github.io/gobook/web-appolang-http-server-part-3riables-aaa/</guid>
+      <guid>https://mohamedallam1991/github.io/GoBook/web-appolang-http-server-part-3riables-aaa/</guid>
       <description>&lt;p&gt;Go, is very productive, lets build a web server in 5 minutes. part 3&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Simple Http server</title>
-      <link>https://mohamedallam1991/github.io/gobook/simple-http-server/</link>
+      <link>https://mohamedallam1991/github.io/GoBook/simple-http-server/</link>
       <pubDate>Tue, 16 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://mohamedallam1991/github.io/gobook/simple-http-server/</guid>
+      <guid>https://mohamedallam1991/github.io/GoBook/simple-http-server/</guid>
       <description>&lt;p&gt;Go, is very productive, lets build a web server in 5 minutes.&lt;/p&gt;</description>
     </item>
     

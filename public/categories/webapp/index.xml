@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>WebApp on Golang Book</title>
-    <link>https://mohamedallam1991/github.io/gobook/categories/webapp/</link>
+    <link>https://mohamedallam1991/github.io/GoBook/categories/webapp/</link>
     <description>Recent content in WebApp on Golang Book</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 16 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mohamedallam1991/github.io/gobook/categories/webapp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mohamedallam1991/github.io/GoBook/categories/webapp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Simple Http server</title>
-      <link>https://mohamedallam1991/github.io/gobook/simple-http-server/</link>
+      <link>https://mohamedallam1991/github.io/GoBook/simple-http-server/</link>
       <pubDate>Tue, 16 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://mohamedallam1991/github.io/gobook/simple-http-server/</guid>
+      <guid>https://mohamedallam1991/github.io/GoBook/simple-http-server/</guid>
       <description>&lt;p&gt;Go, is very productive, lets build a web server in 5 minutes.&lt;/p&gt;</description>
     </item>
     
