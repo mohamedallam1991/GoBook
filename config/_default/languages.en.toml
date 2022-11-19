@@ -6,7 +6,7 @@ weight = 1
 rtl = false
 
 title = "Golang Book"
-logo = "img/Go-Logo_Blue.png"
+# logo = "img/Go-Logo_Blue.png"
 description = "This blog will take you from zero to hero in Golang."
 # copyright = "Copy, _right?_ :thinking_face:"
 
