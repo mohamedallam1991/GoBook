@@ -1,0 +1,90 @@
+name: deploy
+
+on:
+  schedule:
+    - cron: "*/5 * * * *" # ever 5 minutes
+  push:
+    branches: [master]
+  workflow_dispatch:
+jobs:
+  deploy:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-20.04
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - name: Set up Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: 1.17
+
+      - name: Check out hugo encrypt
+        uses: actions/checkout@master
+        with:
+          repository: Izumiko/hugo-encrypt
+          path: 'hugo-encrypt'
+
+      - name: Build hugo encrypt
+        working-directory: ./hugo-encrypt
+        run: |
+          go mod tidy
+          go build
+
+      - name: Check out Hugo blog
+        uses: actions/checkout@v2
+        with:
+          # Make sure the actual branch is checked out when running on pull requests
+          ref: ${{ github.head_ref }}
+          path: 'mohamedallam1991.github.io'
+          # Get also submodules
+          submodules: 'recursive'
+
+      - name: Retrieve posts from Notion
+        id: notion_blog
+        uses: xzebra/notion-blog@master
+        with:
+          database-id: '991015a488534194bdf3d22700210ad0'
+          content-folder: ./mohamedallam1991.github.io/content/blog
+          images-folder: ./mohamedallam1991.github.io/static/images/posts
+          images-link: /images/posts
+          archetype-file: ./mohamedallam1991.github.io/archetypes/blog.md
+          property-description: "Description"
+          property-tags: "Tags"
+          property-categories: "Categories"
+          filter-prop: 'Status'
+          filter-value: "Finished ✅,Published 🖨"
+          published-value: 'Published 🖨'
+          use-date-for-filename: false
+          use-shortcodes: true
+        env:
+          NOTION_SECRET : ${{ secrets.NOTION_SECRET }}
+
+      - name: Setup Hugo
+        if: ${{github.event_name != 'schedule' || steps.notion_blog.outputs.articles_published != '0'}}
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.81.0'
+          extended: true
+
+      - name: Generate static content
+        if: ${{github.event_name != 'schedule' || steps.notion_blog.outputs.articles_published != '0'}}
+        working-directory: ./mohamedallam1991.github.io
+        run: |
+          hugo --minify -d public
+
+      - name: Encrypt required blog posts
+        if: ${{github.event_name != 'schedule' || steps.notion_blog.outputs.articles_published != '0'}}
+        working-directory: ./mohamedallam1991.github.io
+        run: |
+          ../hugo-encrypt/hugo-encrypt -sitePath public > /dev/null 2>&1
+
+      - name: Deploy
+        if: ${{github.event_name != 'schedule' || steps.notion_blog.outputs.articles_published != '0'}}
+        uses: peaceiris/actions-gh-pages@v3.7.0-8
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./mohamedallam1991.github.io/public
+          # need to exclude .gitignore as actions-gh-pages wont deploy
+          # ignored files
+          exclude_assets: '.github,**/.gitignore'
+          force_orphan: true
