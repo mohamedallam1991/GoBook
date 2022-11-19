@@ -1,5 +1,4 @@
 ---
-draft: true
 title:  Data structure and Algorithms
 date: 2022-09-03
 # url: algorithms
