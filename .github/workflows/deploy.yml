@@ -76,10 +76,10 @@ jobs:
       - name: Build
         working-directory: ./mohamedallam1991.github.io
         run: hugo --minify --baseURL https://mohamedallam1991.github.io/
-      # - name: Generate static content
-      #   if: ${{github.event_name != 'schedule' || steps.notion_blog.outputs.articles_published != '0'}}
-      #   working-directory: ./mohamedallam1991.github.io
-      #   run: hugo --minify --baseURL https://mohamedallam1991.github.io/
+      - name: Generate static content
+        if: ${{github.event_name != 'schedule' || steps.notion_blog.outputs.articles_published != '0'}}
+        working-directory: ./mohamedallam1991.github.io
+        run: hugo --minify --baseURL https://mohamedallam1991.github.io/
       #   # run: |
       #   #   hugo --minify -d public
 
