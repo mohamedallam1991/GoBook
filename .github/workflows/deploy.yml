@@ -66,12 +66,21 @@ jobs:
           hugo-version: '0.81.0'
           extended: true
 
-      - name: Generate static content
-        if: ${{github.event_name != 'schedule' || steps.notion_blog.outputs.articles_published != '0'}}
-        working-directory: ./mohamedallam1991.github.io
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2.5.0
+        # uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build
         run: hugo --minify --baseURL https://mohamedallam1991.github.io/
-        # run: |
-        #   hugo --minify -d public
+      # - name: Generate static content
+      #   if: ${{github.event_name != 'schedule' || steps.notion_blog.outputs.articles_published != '0'}}
+      #   working-directory: ./mohamedallam1991.github.io
+      #   run: hugo --minify --baseURL https://mohamedallam1991.github.io/
+      #   # run: |
+      #   #   hugo --minify -d public
 
       # - name: Encrypt required blog posts
       #   if: ${{github.event_name != 'schedule' || steps.notion_blog.outputs.articles_published != '0'}}
